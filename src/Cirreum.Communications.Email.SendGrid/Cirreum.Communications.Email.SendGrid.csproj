@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<RootNamespace>Cirreum.Communications.Email</RootNamespace>
+		<Description>The Cirreum Email Library for SendGrid.</Description>
+		<PackageTags>cirreum;communications;email;sendgrid</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="SendGrid" Version="9.29.3" />
+		<PackageReference Include="Cirreum.Communications.Email" Version="1.0.107" />
+		<PackageReference Include="Cirreum.ServiceProvider" Version="1.0.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="SendGrid" />
+	</ItemGroup>
+
+</Project>
