@@ -30,12 +30,5 @@
 	<PropertyGroup Label="CI/CD Packaging" Condition="'$(IsCI)' == 'true'">
 		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
 	</PropertyGroup>
-
-	<!-- InternalsVisibleTo: Local Development Only -->
-	<ItemGroup Label="InternalsVisibleTo" Condition="'$(IsLocalBuild)' == 'true'">
-		<InternalsVisibleTo Include="Cirreum.Conductor.Benchmarks" />
-		<InternalsVisibleTo Include="Cirreum.Conductor.Tests" />
-		<InternalsVisibleTo Include="Cirreum.ResultMondad.Tests" />
-	</ItemGroup>
 	
 </Project>
