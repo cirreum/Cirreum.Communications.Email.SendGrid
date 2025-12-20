@@ -8,8 +8,8 @@
 
 	<ItemGroup>
 		<PackageReference Include="SendGrid" Version="9.29.3" />
-		<PackageReference Include="Cirreum.Communications.Email" Version="1.0.107" />
-		<PackageReference Include="Cirreum.ServiceProvider" Version="1.0.4" />
+		<PackageReference Include="Cirreum.Communications.Email" Version="1.0.108" />
+		<PackageReference Include="Cirreum.ServiceProvider" Version="1.0.5" />
 	</ItemGroup>
 
 	<ItemGroup>
