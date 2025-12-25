@@ -3,7 +3,11 @@
   "permissions": {
     "allow": [
       "Bash(rg:*)",
-      "Bash(findstr:*)"
+      "Bash(findstr:*)",
+      "Bash(xcopy:*)",
+      "Bash(robocopy:*)",
+      "Bash(copy:*)",
+      "Bash(cp:*)"
     ],
     "deny": []
   }
